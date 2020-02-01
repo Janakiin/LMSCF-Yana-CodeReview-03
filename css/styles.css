@@ -3,15 +3,16 @@
   margin: 0;
   font-family: "Open Sans", san-serif; }
 
+body {
+  background-color: #CECECE; }
+
 .container {
-  width: 100%; }
+  max-width: 1040px;
+  margin: auto; }
 
 .header {
   background-color: #FFF3F3;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  padding: 10px 20px; }
 
 .header img:nth-child(1) {
   height: 100%;
@@ -25,19 +26,32 @@
 nav {
   background-color: #8E1616;
   height: 40px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  padding-top: 5px; }
 
 nav li {
   display: inline;
   text-decoration: none;
-  margin-left: 10px; }
+  margin-left: 30px;
+  transition: text-decoration 0.5s; }
+
+nav li:hover {
+  color: lightcyan;
+  text-decoration: underline; }
 
 nav li a {
   text-decoration: none;
   color: #e1e1e1; }
+
+nav li a:hover {
+  color: lightcyan; }
+
+.plus {
+  justify-content: space-between;
+  margin: 20px 30px; }
+
+.rightLogo {
+  padding-top: 15px; }
 
 .jsField {
   width: 100%;
@@ -64,9 +78,14 @@ nav li a {
   font-weight: bold;
   text-align: left; }
 
-.entry input, select {
+.entry input {
   width: 300px;
   height: 30px;
+  margin-bottom: 20px; }
+
+select {
+  width: 304px;
+  height: 34px;
   margin-bottom: 20px; }
 
 #calculate {
@@ -77,27 +96,38 @@ nav li a {
   width: 200px;
   height: 40px;
   margin-top: 30px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  transition: color 0.5s background 0.5s; }
+
+#calculate:hover {
+  color: black;
+  background: #8DD2D4; }
+
+.output {
+  color: green; }
 
 .tipps {
   background-color: #CECECE;
   color: black;
   padding: 20px 20px;
-  padding-top: 40px; }
+  padding-top: 100px; }
 
 .offer {
-  padding: 50px 20px; }
+  padding: 50px 20px;
+  background-color: white; }
 
 .wrapper {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
 
 .table {
   border: 1px solid lightgrey;
-  width: 400px;
+  width: 50%;
   padding: 20px;
   padding-bottom: 30px;
-  box-shadow: 0px -3px 2px 0px black; }
+  box-shadow: 0px -3px 2px 0px black;
+  margin-right: 20px;
+  margin-bottom: 20px; }
 
 .table h3 {
   color: #535D82; }
@@ -117,7 +147,7 @@ nav li a {
 
 .greyText {
   color: grey;
-  width: 355px; }
+  width: 80%; }
 
 .two {
   width: 300px; }
@@ -125,15 +155,83 @@ nav li a {
 footer {
   background-color: #171717;
   color: white;
-  padding-bottom: 10px;
-  padding-right: 10px; }
+  padding-bottom: 30px;
+  padding-right: 30px; }
 
 footer nav {
   background-color: #171717; }
 
 .footer img {
-  padding-left: 79%;
+  float: right;
   height: 50px;
   width: 220px; }
+
+.footer p {
+  clear: right; }
+
+@media only screen and (max-width: 880px) {
+  .entry input {
+    width: 250px;
+    height: 30px; }
+
+  select {
+    width: 254px;
+    height: 34px; } }
+@media only screen and (max-width: 800px) {
+  .table {
+    width: 40%; }
+
+  .jsField h1 {
+    font-size: 1.5em; }
+
+  .plus {
+    justify-content: space-between; } }
+@media only screen and (max-width: 744px) {
+  .entry input {
+    width: 200px; }
+
+  select {
+    width: 204px; } }
+@media only screen and (max-width: 700px) {
+  .banner {
+    display: none; } }
+@media only screen and (max-width: 620px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center; }
+
+  .entry input {
+    width: 300px; }
+
+  select {
+    width: 304px; }
+
+  .table {
+    width: 80%; }
+
+  .jsField h1 {
+    font-size: 1em; }
+
+  .tipps {
+    padding-top: 170px; } }
+@media only screen and (max-width: 431px) {
+  .jsField h1 {
+    font-size: 0.6em; }
+
+  .entry input {
+    width: 100%; }
+
+  select {
+    width: 100%; }
+
+  .wrapper {
+    flex-direction: column;
+    align-items: stretch; }
+
+  .plus {
+    align-items: center; }
+
+  .two {
+    width: 60%; } }
 
 /*# sourceMappingURL=styles.css.map */

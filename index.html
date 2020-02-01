@@ -7,24 +7,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div class="container">
+	<!--<div class="container">-->
 		
 	
 		<!--Header-->
 		<header>
-			<div class="header">	
-				<img src="img/logo.png" alt="logo-insurance">
-				<a href="https://www.codefactory.wien" target="_blank">
-					<img src="img/banner.png" alt="cf-banner">
-				</a>
+			<div class="header">
+				<div class="container">
+					<div class="wrapper plus">
+						
+						<img class="rightLogo" src="img/logo.png" alt="logo-insurance">
+						<a class="banner" href="https://www.codefactory.wien" target="_blank">
+							<img class="banner" src="img/banner.png" alt="cf-banner">
+						</a>
+					</div>
+				</div>	
 			</div>
 
 			<nav>
-				<ul>
-					<li><a href="" title="">Home</a></li>
-					<li><a href="" title="">Team</a></li>
-					
-				</ul>
+				<div class="container">
+					<ul>
+						<li><a href="" title="">Home</a></li>
+						<li><a href="" title="">Team</a></li>
+						
+					</ul>
+				</div>	
 			</nav>
 		</header>
 
@@ -32,101 +39,119 @@
 		<main>
 			
 			<section class="jsField">
-				<h1>Car insurance</h1>
-				<center>
-					<div class="greatCoverage">
-						<h1>Great coverage begins with a custom quote</h1>
-						<div class="wrapper">
-							<div>
-								<div class="entry">Your name:<br>
-									<input type="text" name="name" id="userName"> 
+				<div class="container">	
+					<h1>Car insurance</h1>
+					<center>
+						<div class="greatCoverage">
+							<h1>Great coverage begins with a custom quote</h1>
+							<div class="wrapper">
+								<div>
+									<div class="entry">Your name:<br>
+										<input type="text" name="name" id="userName" required> 
+									</div>
+									<div class="entry">Country: <br>
+										<select id="country" required>
+											<option id="Austria" value="Austria">Austria</option>
+											<option id="Hungary" value="Hungary">Hungary</option>
+											<option id="Greece">Greece</option>
+										</select>
+									</div>	
 								</div>
-								<div class="entry">Country: <br>
-									<select name="country">
-										<option id="Austria" value="Austria">Austia</option>
-										<option id="Germany" value="Germany">Germany</option>
-									</select>
-								</div>	
+
+								<div>
+									<div class="entry">Age: <br>
+										<input type="number" name="age" id="age" required> 
+									</div>
+									<div class="entry">Horsepower of your car: <br>
+										<input type="number" name="horsepower" id="horsepower" required>
+									</div>
+								</div>
 							</div>
 
-							<div>
-								<div class="entry">Age: <br>
-									<input type="number" name="age" id="age"> 
-								</div>
-								<div class="entry">Horsepower of your car: <br>
-									<input type="number" name="horsepower" id="horsepower">
-								</div>
-							</div>
+							<button type="submit" id="calculate">Calculate</button>
+							<div id="output" class="output"></div>
+							
 						</div>
 
-						<button id="calculate">Calculate</button>
 						
-					</div>	
-				</center>
+								
+								
+					</center>
+				</div>
 			</section>
+			
+				
 			<section class="tipps">
-				<center>
-				<h1>Un-complicating car coverage</h1>
-				<p>Understanding your coverage options shouldn`t be so hard.</p>
-				<p>We`ll guide you through available coverage types,</p>
-				<p>starting with who and what is covered.</p>
-				</center>
+				<div class="container">
+					<center>
+					<h1>Un-complicating car coverage</h1>
+					<p>Understanding your coverage options shouldn`t be so hard.</p>
+					<p>We`ll guide you through available coverage types,</p>
+					<p>starting with who and what is covered.</p>
+					</center>
+				</div>	
 			</section>
 			<section class="offer">
+				<div class="container">
 				
-				<div class="wrapper">
-					<div class="table">
-						<div>
-							<h3>What comes standard</h3>
-							<p>The coverage you need</p>
-							 <p class="item"><span>&#10004;</span>Bodily Injury Liability</p>
-							 <p class="item"><span>&#10004;</span>Property Damage</p>
-							 <p class="item"><span>&#10004;</span>Medical Payments</p>
+					<div class="wrapper">
+						<div class="table">
+							<div>
+								<h3>What comes standard</h3>
+								<p>The coverage you need</p>
+								 <p class="item"><span>&#10004;</span>Bodily Injury Liability</p>
+								 <p class="item"><span>&#10004;</span>Property Damage</p>
+								 <p class="item"><span>&#10004;</span>Medical Payments</p>
+							</div>
+							
+							
+							<h4>Benefits</h4>
+							<p class="greyText">12-month rate guarantee |24/7 customer service |Lifetime Repair Guarantee
+						</div>
+						<div class="table">
+							<div>
+								<h3>Add-on protection & coverage</h3>
+								<p>For more peace of mind</p>
+								 <p class="item"><span>&#10004;</span>Better Car Replacement</p>
+								 <p class="item"><span>&#10004;</span>Towing & Labor</p>
+								 <p class="item"><span>&#10004;</span>Rental Car Coverage</p>
+							</div>
+						
+							
+							<h4>Earned Benefits</h4>
+							<p class="greyText two">Accident Forgiveness | New Car Replacement  	&trade;</p>
 						</div>
 						
-						
-						<h4>Benefits</h4>
-						<p class="greyText">12-month rate guarantee |24/7 customer service |Lifetime Repair Guarantee
 					</div>
-					<div class="table">
-						<div>
-							<h3>Add-on protection & coverage</h3>
-							<p>For more peace of mind</p>
-							 <p class="item"><span>&#10004;</span>Better Car Replacement</p>
-							 <p class="item"><span>&#10004;</span>Towing & Labor</p>
-							 <p class="item"><span>&#10004;</span>Rental Car Coverage</p>
-						</div>
-					
-						
-						<h4>Earned Benefits</h4>
-						<p class="greyText two">Accident Forgiveness | New Car Replacement  	&trade;
-					</div>
-					
-				</div>
+				</div>	
 			</section>
 		</main>
 
 		<!--Footer-->
 		<footer>
 			<nav>
-				<ul>
-					<li><a href="" title="">Home</a></li>
-					<li><a href="" title="">Team</a></li>
-					
-				</ul>
+				<div class="container">
+					<ul>
+						<li><a href="" title="">Home</a></li>
+						<li><a href="" title="">Team</a></li>
+						
+					</ul>
+				</div>	
 			</nav>
 
-			<div class="footer">	
-				<img width="100px" src="img/logo-inv.png" alt="logo-newspaper">
-				<center>
-				<p class="credits">Yana - CodeFactory 2020</p>
-				</center>
+			<div class="footer">
+				<div class="container">	
+					<img width="100px" src="img/logo-inv.png" alt="logo-newspaper">
+					<center>
+					<p class="credits">Yana - CodeFactory 2020</p>
+					</center>
+				</div>	
 			</div>
 		</footer>
 
 		<!--Javascript files connected-->
 		<script src="js/main.js" type="text/javascript"></script>
 		<script src="js/team.json" type="text/javascript"></script>
-	</div>
+	<!--</div>-->
 </body>
 </html>
