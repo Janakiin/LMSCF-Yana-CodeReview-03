@@ -14,10 +14,10 @@ without user`s arguments;
 */
 
 //connect the button with mainFun-function
-document.getElementById("calculate").addEventListener('click', mainFun, false);     
+document.getElementById("calculate").addEventListener('click', mainFun, calculateInsurancePerCountry, false);     
 
 //user presses the button and activate this function
-function mainFun(){
+/*function mainFun(){
 	//getting parameters for calculateInsurance-function and so on:
 
 	var horsePower = document.getElementById("horsepower").value;
@@ -61,12 +61,12 @@ function calculateInsurance(hp, num, ag, num2){
 		console.log("Don`t be lazy, dear User! :)");
 		document.getElementById("output").innerHTML = "Please, fill the empty fields";
 	}
-}
+}*/
 
-//and second variant, which I`ve` read in the CodeReview`s assignment not too soon 
+//and second variant, which I`ve read in the CodeReview`s assignment not too soon 
 //var insurance = 0;
  
-/*function calculateInsurancePerCountry(){
+function calculateInsurancePerCountry(){
 	var horsePower = document.getElementById("horsepower").value;
 	var age = Number(document.getElementById("age").value);
 	var name = document.getElementById("userName").value;
@@ -83,7 +83,7 @@ function calculateInsurance(hp, num, ag, num2){
 	return insurance;
 }
 document.getElementById("output").innerHTML = `<p style=\"color:green\">${name}, 
-	your insurance costs ${calculateInsurancePerCountry()} &euro;</p`;*/
+	your insurance costs ${calculateInsurancePerCountry()} &euro;</p>`;
 
 
 

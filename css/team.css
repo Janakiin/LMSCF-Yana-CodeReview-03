@@ -3,7 +3,7 @@ h3 {
   margin-bottom: 20px;
   text-align: left; }
 
-h4 {
+main h4 {
   font-size: 0.8em;
   margin-bottom: 80px; }
 
@@ -13,20 +13,20 @@ h4 {
   padding: 30px;
   padding-top: 0px; }
 
-a {
+main a {
   display: block;
   text-decoration: none;
   color: red;
   font-size: 0.8em;
   transition: text-decoration 0.5s; }
 
-a:hover {
+main a:hover {
   text-decoration: underline; }
 
 .photo {
   flex-basis: 1; }
 
-p {
+main p {
   font-size: 0.5em; }
 
 .hidingInfo {
