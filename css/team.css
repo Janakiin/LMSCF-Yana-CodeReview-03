@@ -13,20 +13,27 @@ h4 {
   padding: 30px;
   padding-top: 0px; }
 
-.info a {
+a {
   display: block;
   text-decoration: none;
   color: red;
   font-size: 0.8em;
   transition: text-decoration 0.5s; }
 
-.info a:hover {
+a:hover {
   text-decoration: underline; }
 
 .photo {
   flex-basis: 1; }
 
 p {
+  font-size: 0.5em; }
+
+.hidingInfo {
+  padding-bottom: 50px; }
+
+.close {
+  color: brown;
   font-size: 0.5em; }
 
 /*# sourceMappingURL=team.css.map */
