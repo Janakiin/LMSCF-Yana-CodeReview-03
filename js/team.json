@@ -1,0 +1,81 @@
+team = `[{
+
+		"id": "1",
+
+	    "firstName": "Sid",
+
+	    "lastName" : "Sloth",
+
+	    "email":"qwerty@index.com",
+
+	    "jobTitle":"Dynamic Team Strategist",
+
+	    "photo":"img/Sid.png",
+
+	    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum ex nisi, nec mollis quam congue eu. Vivamus fringilla dignissim risus, et semper quam viverra mollis. Aliquam sagittis leo ut dolor interdum tincidunt. Pellentesque leo velit, accumsan id pulvinar in, porta eu nisl. Aenean in enim gravida, condimentum leo tincidunt, viverra odio. Nullam nibh libero, pretium a arcu et, faucibus facilisis ante. Fusce porta, diam ut vestibulum tincidunt, justo est dapibus quam, fermentum bibendum augue augue in lectus. Sed sit amet maximus dui."
+
+	},{
+
+		"id": "12",
+
+	    "firstName": "Dominic",
+
+	    "lastName":"Toretto",
+
+	    "email":"asdfgh@index.com",
+
+	    "jobTitle":"Car Dealing Specialist",
+
+	     "photo": "img/dominic.jpg",
+
+	     "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum ex nisi, nec mollis quam congue eu. Vivamus fringilla dignissim risus, et semper quam viverra mollis. Aliquam sagittis leo ut dolor interdum tincidunt. Pellentesque leo velit, accumsan id pulvinar in, porta eu nisl. Aenean in enim gravida, condimentum leo tincidunt, viverra odio. Nullam nibh libero, pretium a arcu et, faucibus facilisis ante. Fusce porta, diam ut vestibulum tincidunt, justo est dapibus quam, fermentum bibendum augue augue in lectus. Sed sit amet maximus dui."
+
+ 	},{
+
+ 		"id": "123",
+
+	    "firstName": "Chuck",
+
+	    "lastName":"Norris",
+
+	    "email":"zxcvbn@index.com",
+
+	    "jobTitle":"Customer Advisor",
+
+	     "photo": "../img/chuck.jpg",
+
+	     "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum ex nisi, nec mollis quam congue eu. Vivamus fringilla dignissim risus, et semper quam viverra mollis. Aliquam sagittis leo ut dolor interdum tincidunt. Pellentesque leo velit, accumsan id pulvinar in, porta eu nisl. Aenean in enim gravida, condimentum leo tincidunt, viverra odio. Nullam nibh libero, pretium a arcu et, faucibus facilisis ante. Fusce porta, diam ut vestibulum tincidunt, justo est dapibus quam, fermentum bibendum augue augue in lectus. Sed sit amet maximus dui."
+
+ 	},{
+
+ 		"id": "1234",
+
+	    "firstName": "Dr.Emmett",
+
+	    "lastName":"Braun",
+
+	    "email":"ertyu@index.com",
+
+	    "jobTitle":"Construction Engineer",
+
+	     "photo": "../img/emmet.jpg",
+
+	     "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum ex nisi, nec mollis quam congue eu. Vivamus fringilla dignissim risus, et semper quam viverra mollis. Aliquam sagittis leo ut dolor interdum tincidunt. Pellentesque leo velit, accumsan id pulvinar in, porta eu nisl. Aenean in enim gravida, condimentum leo tincidunt, viverra odio. Nullam nibh libero, pretium a arcu et, faucibus facilisis ante. Fusce porta, diam ut vestibulum tincidunt, justo est dapibus quam, fermentum bibendum augue augue in lectus. Sed sit amet maximus dui."
+
+ 	},{
+
+ 		"id": "12",
+
+	    "firstName": "Stanley",
+
+	    "lastName":"Ipkiss",
+
+	    "email":"tyuiop@index.com",
+
+	    "jobTitle":"Commercial Manager",
+
+	     "photo": "../img/stanley.jpg",
+
+	     "bio" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum ex nisi, nec mollis quam congue eu. Vivamus fringilla dignissim risus, et semper quam viverra mollis. Aliquam sagittis leo ut dolor interdum tincidunt. Pellentesque leo velit, accumsan id pulvinar in, porta eu nisl. Aenean in enim gravida, condimentum leo tincidunt, viverra odio. Nullam nibh libero, pretium a arcu et, faucibus facilisis ante. Fusce porta, diam ut vestibulum tincidunt, justo est dapibus quam, fermentum bibendum augue augue in lectus. Sed sit amet maximus dui."
+
+}]`;
